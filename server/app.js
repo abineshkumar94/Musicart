@@ -34,4 +34,8 @@ app.use("/api/v1",productdetails);
 app.use("/api/v1/cart",cart);
 app.use("/api/v1/buyNow", buyNow);
 
+app.get("/", (req,res ) => {
+res.send("<h1>Hello</h1>")
+})
+
 module.exports = app;
