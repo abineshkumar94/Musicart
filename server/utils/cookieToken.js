@@ -11,6 +11,10 @@ const cookieToken = (user, res) => {
     token,
     user,
   });
+
+
+
+  
 };
 
 module.exports = cookieToken
